@@ -1,6 +1,6 @@
 <?php
 session_start();
-include './koneksi.php';
+include 'koneksi.php';
 
 // menangkap data yang dikirim dari form login
 $username = $_POST['username'];
@@ -15,7 +15,7 @@ $cek = mysqli_num_rows($data);
 if ($cek > 0) {
     $_SESSION['username'] = $username;
     $_SESSION['status'] = "login";
-    header("location:admin/index.php");
+    header("location:admin/homepage.php");
 } else {
     header("location:index.php?pesan=gagal");
 }
