@@ -1,6 +1,6 @@
 <?php
 
-$nilai = 60;
+$nilai = 85;
 
 echo 'Memeriksa variable $nilai <br>';
 echo "Nilai: {$nilai} <br>";

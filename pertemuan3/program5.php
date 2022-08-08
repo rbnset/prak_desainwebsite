@@ -1,5 +1,5 @@
 <?php
-$umur = 17;
+$umur = 21;
 $menikah = false;
 if ($umur > 18) {
     if ($menikah) {

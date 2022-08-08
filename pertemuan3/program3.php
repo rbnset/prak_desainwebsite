@@ -1,6 +1,6 @@
 <?php
 
-$nilai = 56;
+$nilai = 96;
 
 echo "Nilai: {$nilai} <br>";
 

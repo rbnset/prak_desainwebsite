@@ -1,6 +1,6 @@
 <?php
 
-$url = '/about';
+$url = '/home';
 
 switch ($url) {
     case '/':

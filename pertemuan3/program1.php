@@ -1,5 +1,5 @@
 <?php
-$lulus = true;
+$lulus = false;
 
 echo 'Memeriksa variable $lulus <br>';
 
